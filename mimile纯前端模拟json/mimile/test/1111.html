@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script src="../www/src/js/lib/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$.get("json/000.json",function(data){
+			var str = window.location.href;
+			var arr = str.split("?");
+			console.log(arr)
+			alert(data[arr[1]]);
+		})
+	</script>
+</html>

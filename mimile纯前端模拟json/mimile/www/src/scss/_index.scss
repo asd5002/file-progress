@@ -1,0 +1,618 @@
+.banner{
+    height: 404px;
+    margin-bottom: 6px;
+    .banner-left{
+        width: 212px;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .banner-right{
+        @extend .banner-left;
+        float: left;
+        height: 404px;
+    }
+}
+
+.banner-left-pages{
+    @include size(212px, 31px);
+//  cursor: pointer;
+    background-repeat:no-repeat;
+    position: relative;
+    border-left: 1px solid $gray-light;
+    border-right: 1px solid $gray-light;
+    box-sizing: border-box;
+    padding-left: 40px;
+    background-position: 18px 12px; 
+    line-height: 38px;
+    font-weight: bold;
+    color: $gray-darker;
+    font-size: $font-size-small; 
+    .banner-pages-arr{
+        font-size: $font-size-none;
+        line-height: 40px;
+        width: 0px;
+        height: 0px;
+        float: right;
+        margin: 13px 10px 0 0;
+        border-width: 5px;
+        border-color: transparent transparent transparent $gray;
+        border-style: dashed dashed dashed solid;
+    }
+    .banner-left-content{
+        visibility: hidden;
+        position: absolute;
+        width: 760px;
+        left: 211px;
+        background-color: $body-bg;
+        max-height: 420px;
+        overflow: hidden;
+        z-index: 2;
+    }
+    &:hover{
+        border-right: 1px solid transparent;
+        .banner-left-content{
+            visibility: visible;
+        }
+    }
+}
+.page-phone{
+    background-image: url(../img/board/phone.png);
+    background-color: $gray-lighter;
+    .banner-left-content{
+        top: 0px;
+    }
+}
+.page-pad{
+    background-image: url(../img/board/pad.png);
+    background-color: $gray-light;
+    .banner-left-content{
+        top: 0px;
+    }
+}
+.page-drink{
+    background-image: url(../img/board/food.png);
+    background-color: $gray-lighter;
+    .banner-left-content{
+        top: 0px;
+    }
+}
+.page-day{
+    background-image: url(../img/board/day-used.png);
+    background-color: $gray-light;
+    .banner-left-content{
+        top: 0px;
+    }
+}
+.page-clothes{
+    background-image: url(../img/board/clothes.png);
+    background-color: $gray-lighter;
+    .banner-left-content{
+        top: 0px;
+    }
+}
+.page-mom{
+    background-image: url(../img/board/mom.png);
+    background-color: $gray-light;
+    .banner-left-content{
+        top: 0px;
+    }
+}
+.page-home{
+    background-image: url(../img/board/home-used.png);
+    background-color: $gray-lighter;
+    .banner-left-content{
+        top: 0px;
+    }
+}
+.page-beauty{
+    background-image: url(../img/board/beauty.png);
+    background-color: $gray-light;
+    .banner-left-content{
+        top: -65px;
+    }
+}
+.page-sports{
+    background-image: url(../img/board/sports.png);
+    background-color: $gray-lighter;
+    .banner-left-content{
+        top: -96px;
+    }
+}
+.page-electricity{
+    background-image: url(../img/board/electricity.png);
+    background-color: $gray-light;
+    .banner-left-content{
+        top: -127px;
+    }
+}
+.page-fresh{
+    background-image: url(../img/board/fresh.png);
+    background-color: $gray-lighter;
+    .banner-left-content{
+        top: -111px;
+    }
+}
+.page-books{
+    background-image: url(../img/board/books.png);
+    background-color: $gray-light;
+    .banner-left-content{
+        top: -73px;
+    }
+}
+.page-car{
+    background-image: url(../img/board/car-used.png);
+    background-color: $gray-lighter;
+    .banner-left-content{
+        top: -152px;
+    }
+}
+.banner-left-content{
+    .banner-content-title{
+        float: left;
+        width: 710px;
+        padding: 10px 25px;
+        span{
+            display: inline-block;
+            width: 5px;
+            height: 20px;
+            background: $brand-primary;
+            float: left;
+            margin-right: 5px;
+        }
+        a{
+            font-size: $font-size-base;
+            line-height: 21px;
+            color: #555;
+            height: 20px;
+            font-weight: bold;
+            display: block;
+        }
+    }
+    dl{
+        margin: 0px 12px;
+        padding: 5px 5px;
+        display: block;
+        float: left;
+        width: 45%;
+    }
+    dt{
+        float: left;
+        a{
+            font-weight: bold;
+            display: inline-block;
+            height: 16px;
+            line-height: 16px;
+            padding: 0 5px;
+            margin: 5px 0;
+        }     
+    }
+    dd{
+        float: left;
+        width: 270px;
+        a{
+            display: inline-block;
+            height: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            border-left: 1px solid #e0e0e0;
+            padding: 0px 8px;
+            margin: 5px 0;
+        }
+    }
+    a{
+        color: $gray-dark;
+        &:hover{
+            color: $link-hover-color;
+        }
+    }
+}
+.banner-slidebox{
+    height: 404px;
+    width: 776px;
+    /*left: 500px;*/
+    float: left;
+    position: relative;
+    overflow: hidden;
+    .shop-img-box{
+        position: absolute;
+        width: 200%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        float: left;
+        img{
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            left: 50%;
+        }
+        .slidebox-first{
+            position: absolute;
+            left: 0;
+        }
+    }
+    .shop-list {
+        position: absolute;
+        @include size(100%, 20px);
+        background-color: rgba(255,255,255,0.3);
+        bottom: 0px;
+        box-sizing: border-box;
+        padding-left: 75%;
+        z-index: 1;
+        @include clearfix;
+        li{
+            width: 24px;
+            height: 6px;
+            float: left;
+            background-color: $gray;
+            list-style: none;
+            margin: 7px 5px;
+        }
+    }
+}
+.banner-right{
+    box-sizing: border-box;
+    border: 1px solid $gray-lightest;
+    padding-top: 5px;
+    .banner-right-title{
+        @include size(100%, 29px);
+        box-sizing: border-box;
+        border-bottom: 1px dashed $gray-lightest;
+        font-size: $font-size-base;
+        line-height: 28px;
+        color: $gray-medium;
+        padding-left: 5px;
+        margin-bottom: 7px;
+    }
+    .banner-right-ul{
+        @include clearfix;
+        border-bottom: 1px dashed $gray-lightest;
+        padding-bottom: 5px;
+    }
+    .banner-search{
+        @include clearfix;
+        box-sizing: border-box;
+        padding-left: 5px;
+        .banner-search-title{
+            height: 38px;
+            line-height: 38px;
+            font-size: $font-size-base;
+        }
+    }
+}
+.banner-right-ul{
+    li{
+        font-size: $font-size-small;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-left: 13px;
+        box-sizing: border-box;
+        width: 100%;
+        background: url(../img/index/dot.png) no-repeat 5px center;
+        a{
+            color: $gray;
+        }
+        span{
+            margin-left: 10px;
+        }
+        a:hover{
+            color: $link-hover-color;
+        }
+    }
+}
+
+.banner-search{
+    form{
+        @include size(100%, 105px);
+        input{
+            @include size(200px, 30px);
+            box-sizing: border-box;
+            border: 1px solid $gray-hard;
+            margin-bottom: 5px;
+        }
+        input[type=button]{
+            background: $gray-light;
+            color: $gray;
+        }
+    }
+}
+.banner-server-ul{
+//  border-top: 1px solid $gray-light;
+    @include clearfix;
+    li{
+        width: 70px;
+        height: 65px;
+        float: left;
+        box-sizing: border-box;
+        border-right: 1px solid $gray-light;
+        border-top: 1px solid $gray-light;
+    }
+    a{
+        display:block;
+        width:62px;
+        height:44px;
+        text-align:center;
+        padding-top:10px;
+        text-decoration:none;
+    }
+    i{ 
+        display:inline-block; 
+        width:25px; 
+        height:25px; 
+        background:url(../img/index/server.png) no-repeat; 
+//      transition:all .5s linear 0s;
+    }
+    span{ 
+        display:block; 
+        height:14px; 
+        line-height:14px; 
+        font-size: $font-size-base; 
+        color:$gray-medium;
+    }
+}
+
+.hua a:hover i{ background-position:0 0;}
+.hua a i{ background-position:-25px 0;}
+.ji a i{ background-position:-25px -25px;}
+.ji a:hover i{ background-position:0 -25px;}
+.pin a i{ background-position:-25px -250px;}
+.pin a:hover i{ background-position:0 -250px;}
+.jiu a i{ background-position:-25px -125px;}
+.jiu a:hover i{ background-position:0 -125px;}
+.huo a i{ background-position:-25px -175px;}
+.huo a:hover i{ background-position:0 -175px;}
+.bai a i{ background-position:-25px -275px;}
+.bai a:hover i{ background-position:0 -275px;}
+
+
+
+.tab-change{
+    height: 306px;
+    .tab-title-box{
+        @include clearfix;
+        box-sizing: border-box;
+        padding: 10px 0px;
+        height: 50px;
+        line-height: 30px;
+        .tab-hot{
+            color: $link-hover-color;
+        }
+        .tab-first{
+            border-right: 1px solid $gray-hard;
+        }
+        a{
+            float: left;
+            padding-left: 16px;
+            padding-right: 15px;
+            font-size: $font-size-base;
+        }
+    }
+    .tab-box{
+        height: 256px;
+        box-sizing: border-box;
+        border: 3px solid $gray-hard;
+        @include clearfix;
+        overflow: hidden;
+    }
+    
+}
+
+.tab-pages{
+    display: none;
+    div{
+        width: 160px;
+        height: 235px;
+        float: left;
+        margin-left: 10px;
+        margin-right: 9px;
+        margin-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px; 
+        &:hover{
+            box-shadow: 0px 2px 5px $gray-hard;
+        }
+    }
+    img{
+        @include size(100%, 158px);
+        margin-bottom: 7px;
+    }
+    a{
+        box-sizing: border-box;
+        line-height: 16px;
+        display: block;
+        font-size: $font-size-small;
+    }
+    span{
+        line-height: 30px;
+        font-size: $font-size-base;
+        color: $brand-primary;
+    }
+}
+.content-ads{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.content{
+    height: 608px;
+    .content-title-box{
+        box-sizing: border-box;
+        border-bottom: 1px solid $brand-primary;
+        padding-left: 58px;
+        height: 31px;
+        line-height: 31px;
+        background-position: 17px 9px;
+        background-repeat: no-repeat;
+        p{
+            font-size: $font-size-large;
+            float: left;
+            font-weight: bold;
+        }
+        .more{
+            float: right;
+            font-size: $font-size-small;
+            line-height: 18px;
+            margin-top: 12px;
+            margin-left: 39px;
+            font-weight: bold;
+        }
+        ul{
+            float: right;
+            @include clearfix;
+        }
+    }
+    .content-page-box{
+        height: 502px;
+        overflow: hidden;
+    }
+    .content-page{
+        @include clearfix;
+        height: 502px;
+        .content-page-first{
+            float: left;
+            height: 100%;
+            width: 340px;
+            margin: 7px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+        .content-page-other{
+            float: left;
+            height: 240px;
+            width: 420px;
+            margin-left: 6px;
+            margin-top: 7px;
+        }
+        .content-page-other-top{
+            margin-bottom: 7px;
+        }
+    }
+    .content-logos{
+        height: 60px;
+        margin-top: 11px;
+        overflow: hidden;
+        a{
+            width: 107px;
+            height: 50px;
+            border: 1px solid $gray-hard;
+            margin: 4px 5px;
+            float: left;
+        }
+    }
+}
+.content-page-other{
+    position: relative;
+    .page-message{
+        position: absolute;
+        text-align: center;
+        display: block;
+        left: 240px;
+        top: 80px;
+        font-size: $font-size-small;
+        font-weight: bold;
+        line-height: 28px;
+        height: 160px;
+        width: 180px;
+        color: $gray-darker;
+        span{
+            display: block;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            color: $red !important;
+        }
+    }
+}
+
+.content-phone{
+    .content-title-box{
+        background-image: url(../img/index/content/phone-bg.png);
+    }
+    .content-logos{
+        background: url(../img/index/logos-1.png) no-repeat 6px 5px $gray-light;
+    }
+}
+.content-pad{
+    .content-title-box{
+        background-image: url(../img/index/content/pad-bg.png);
+    }
+    .content-logos{
+        background: url(../img/index/logos-2.png) no-repeat 6px 5px $gray-light;
+    }
+}
+.content-drink{
+    .content-title-box{
+        background-image: url(../img/index/content/drink-bg.png);
+    }
+    .content-logos{
+        background: url(../img/index/logos-7.png) no-repeat 6px 5px $gray-light;
+    }
+}
+.content-home{
+    .content-title-box{
+        background-image: url(../img/index/content/home-bg.png);
+    }
+    .content-logos{
+        background: url(../img/index/logos-6.png) no-repeat 6px 5px $gray-light;
+    }
+}
+.content-day{
+    .content-title-box{
+        background-image: url(../img/index/content/day-bg.png);
+    }
+    .content-logos{
+        background: url(../img/index/logos-5.png) no-repeat 6px 5px $gray-light;
+    }
+}
+.content-mom{
+    .content-title-box{
+        background-image: url(../img/index/content/mom-bg.png);
+    }
+    .content-logos{
+        background: url(../img/index/logos-4.png) no-repeat 6px 5px $gray-light;
+    }
+}
+.content-beauty{
+    .content-title-box{
+        background-image: url(../img/index/content/beauty-bg.png);
+    }
+    .content-logos{
+        background: url(../img/index/logos-3.png) no-repeat 6px 5px $gray-light;
+    }
+}
+.content-fresh{
+    .content-title-box{
+        background-image: url(../img/index/content/fresh-bg.png);
+    }
+    .content-logos{
+        background: url(../img/index/logos-7.png) no-repeat 6px 5px $gray-light;
+    }
+}
+.content-own{
+    height: 370px !important;
+    img{
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .own-first{
+        margin-right: 5px;
+    }
+}
+.content-title{
+    float: left;
+    height: 100%;
+    a{
+        padding-left: 10px;
+        padding-right: 11px;
+        height: 18px;
+        display: block;
+        line-height: 18px;
+        margin-top: 12px;
+    }
+    &:hover{
+        background: $brand-primary;
+        a{
+            color: $body-bg;
+        }
+    }
+}

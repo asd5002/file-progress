@@ -1,0 +1,26 @@
+.l {
+    float: left;
+    @include clearfix;
+}
+
+.r {
+    float: right;
+    @include clearfix;
+}
+
+.w {
+    width: 1200px;
+    @include center-block;
+}
+
+.hide{
+    display: none !important;
+}
+
+.show{
+    display: block !important;
+}
+
+.hover {
+    background-color: #f30 !important;
+}

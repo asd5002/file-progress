@@ -1,0 +1,362 @@
+{
+	"slidebox": [
+		{
+			"title": 1,
+			"img": "img/index/web-101-101-1.png"
+		}, {
+			"title": 2,
+			"img": "img/index/web-101-101-3.jpg"
+		}, {
+			"title": 3,
+			"img": "img/index/web-101-101-4.jpg"
+		}, {
+			"title": 4,
+			"img": "img/index/web-101-101-5.jpg"
+		}, {
+			"title": 5,
+			"img": "img/index/web-101-101-6.png"
+		}
+	],
+	"tabChange": [
+		[
+			{
+				"id": 1,
+				"img": "img/index/tab/tab-hot-1.jpg",
+				"describe": "联想Lenovo C5030 I35005U4G1TGRW-10",
+				"price": "¥4299.00"
+			}, {
+				"id": 2,
+				"img": "img/index/tab/tab-hot-2.jpg",
+				"describe": "得力(deli) 6506 按动圆珠笔60支/盒 蓝色 0.7mm",
+				"price": "¥26.80"
+			}, {
+				"id": 3,
+				"img": "img/index/tab/tab-hot-3.jpg",
+				"describe": "得力(deli)8553 32mm彩色长尾夹/长尾票夹 24只/筒",
+				"price": "¥11.80"
+			}, {
+				"id": 4,
+				"img": "img/index/tab/tab-hot-4.jpg",
+				"describe": "苹果（APPLE）iPhone 6s (ML7N2CH/A) 公开版 金色 ",
+				"price": "¥6088.00"
+			}, {
+				"id": 5,
+				"img": "img/index/tab/tab-hot-5.jpg",
+				"describe": "Lenovo/联想原装包鼠套装TM2140 14寸手提包笔",
+				"price": "¥59.00"
+			}, {
+				"id": 6,
+				"img": "img/index/tab/tab-hot-6.jpg",
+				"describe": "IDMIX X8移动电源8100mah国际航空认证",
+				"price": "¥105.00"
+			}
+		],
+		[
+			{
+				"id": 7,
+				"img": "img/index/tab/tab-act-2.jpg",
+				"describe": "嘉思悠 蚕丝面膜 人参/温桲/虎耳草 (5片入)",
+				"price": "¥279.00"
+			}, {
+				"id": 8,
+				"img": "img/index/tab/tab-act-1.jpg",
+				"describe": "HIBIS 木槿花 草本贴身透气卫生棉 (日用/一般)8片/包 (3包",
+				"price": "¥99.00"
+			}, {
+				"id": 9,
+				"img": "img/index/tab/tab-act-3.jpg",
+				"describe": "妈咪宝贝潮宝型装小公主四件套（赠品）",
+				"price": "¥15.00"
+			}, {
+				"id": 10,
+				"img": "img/index/tab/tab-act-4.jpg",
+				"describe": "泸州老窖泸州原浆贵宾级品鉴酒 880ml浓香型白酒 52度酒中",
+				"price": "¥458.00"
+			}, {
+				"id": 11,
+				"img": "img/index/tab/tab-act-5.jpg",
+				"describe": "联创 尊尚304#不锈钢电热水壶 DF-EP1900M 白色",
+				"price": "¥278.00"
+			}, {
+				"id": 12,
+				"img": "img/index/tab/tab-act-6.jpg",
+				"describe": "得力（deli） 7151 便签纸/便签本/便利贴/百事贴/易事贴 ",
+				"price": "¥9.90"
+			}
+		]
+	],
+	"content_page": [
+		[
+			{
+				"id": 13,
+				"img": "img/index/content/phone-shop-1.png"
+			}, {
+				"id": 14,
+				"img": "img/index/content/phone-shop-2.png",
+				"detail1": "M9et 5.2英寸2K超清",
+				"detail2": "每拍 美拍 眼界大开",
+				"detail3": "concise外貌",
+				"detail4": "商务 生活 旅行 随享自在"
+			}, {
+				"id": 15,
+				"img": "img/index/content/phone-shop-3.png",
+				"detail1": "小米Note 全网双4G版",
+				"detail2": "触碰自然 触手可得",
+				"detail3": "细腻竹制",
+				"detail4": "为玻璃赋予生命"
+			}, {
+				"id": 16,
+				"img": "img/index/content/phone-shop-4.png",
+				"detail1": "诺基亚/第二备用手机",
+				"detail2": "超长待机 经久耐用",
+				"detail3": "经典畅销",
+				"detail4": "音量响亮 父辈爱不释手"
+			}, {
+				"id": 17,
+				"img": "img/index/content/phone-shop-5.png",
+				"detail1": "乐视1S(X800)16G 通用版",
+				"detail2": "无边全金属 彰显至美",
+				"detail3": "全视纷彩",
+				"detail4": "360° 呈现美轮美奂"
+			}
+		],
+		[
+			{
+				"id": 18,
+				"img": "img/index/content/pad-shop-1.png"
+			}, {
+				"id": 19,
+				"img": "img/index/content/pad-shop-2.png",
+				"detail1": "华为8.0英寸平板电脑",
+				"detail2": "Android 4.2 1G 16GB",
+				"detail3": "3G版畅想",
+				"detail4": "带通话功能"
+			}, {
+				"id": 20,
+				"img": "img/index/content/pad-shop-3.png",
+				"detail1": "360° 旋转触控屏",
+				"detail2": "720P高清摄像头",
+				"detail3": "正版Windows8操作系统",
+				"detail4": "双散热风扇 多触控点"
+			}, {
+				"id": 21,
+				"img": "img/index/content/pad-shop-4.png",
+				"detail1": "戴尔 流畅多元化体验",
+				"detail2": "四核处理 高端独显",
+				"detail3": "彰显时尚",
+				"detail4": "防眩光显示屏体验"
+			}, {
+				"id": 22,
+				"img": "img/index/content/pad-shop-5.png",
+				"detail1": "戴尔(DELL)14英寸商务本",
+				"detail2": "丰富硬件 全面保障",
+				"detail3": "画质优越",
+				"detail4": "内置玩家级独显"
+			}
+		],
+		[
+			{
+				"id": 23,
+				"img": "img/index/content/drink-shop-1.png"
+			}, {
+				"id": 24,
+				"img": "img/index/content/drink-shop-2.png",
+				"detail1": "二十年陈酿",
+				"detail2": "贵州茅河酒500ml",
+				"detail3": "送礼首先",
+				"detail4": "纯正香浓 味美甘甜"
+			}, {
+				"id": 25,
+				"img": "img/index/content/drink-shop-3.png",
+				"detail1": "皇冠丹麦曲奇",
+				"detail2": "铁罐礼盒装681g",
+				"detail3": "原味健康",
+				"detail4": "老少皆宜 快乐的味道"
+			}, {
+				"id": 26,
+				"img": "img/index/content/drink-shop-4.png",
+				"detail1": "朗姆鸡尾酒 预调酒(青柠味)",
+				"detail2": "青柠朗姆 味道香浓",
+				"detail3": "果汁与美酒",
+				"detail4": "香甜可口的鸡尾酒"
+			}, {
+				"id": 27,
+				"img": "img/index/content/drink-shop-5.png",
+				"detail1": "生态黑苦荞",
+				"detail2": "清肠毒 美容 瘦身 养颜",
+				"detail3": "为健康护航",
+				"detail4": "6大营养元素"
+			}
+		],
+		[
+			{
+				"id": 28,
+				"img": "img/index/content/home-shop-1.png"
+			}, {
+				"id": 29,
+				"img": "img/index/content/home-shop-2.png",
+				"detail1": "飞利浦净水壶净水净生活",
+				"detail2": "密封防尘 精芯之作",
+				"detail3": "双重过滤",
+				"detail4": "黄金构造铸就完美品质"
+			}, {
+				"id": 30,
+				"img": "img/index/content/home-shop-3.png",
+				"detail1": "立柜式 |尊变频冷暖空调",
+				"detail2": "全能 前所未见",
+				"detail3": "一触即发",
+				"detail4": "创新大全景旋转扫风"
+			}, {
+				"id": 31,
+				"img": "img/index/content/home-shop-4.png",
+				"detail1": "4K安卓智能3DLED电视",
+				"detail2": "极致创新 生而不凡",
+				"detail3": "智能简约",
+				"detail4": "你生活中需要CHIQ的不凡"
+			}, {
+				"id": 32,
+				"img": "img/index/content/home-shop-5.png",
+				"detail1": "艾美特 5片扇叶落地电扇",
+				"detail2": "全铝壳静音电机",
+				"detail3": "悦享清凉",
+				"detail4": "源自台湾 领跑同行"
+			}
+		],
+		[
+			{
+				"id": 33,
+				"img": "img/index/content/day-shop-1.png"
+			}, {
+				"id": 34,
+				"img": "img/index/content/day-shop-2.png",
+				"detail1": "双层保温玻璃杯",
+				"detail2": "糖果系列超萌",
+				"detail3": "耐高温不烫手",
+				"detail4": "总有一种色彩符合你的调调"
+			}, {
+				"id": 35,
+				"img": "img/index/content/day-shop-3.png",
+				"detail1": "施华蔻 多效修复19系列",
+				"detail2": "柔润秀发 强健发芯",
+				"detail3": "修护受损发质",
+				"detail4": "新活成分全能修护冠军"
+			}, {
+				"id": 36,
+				"img": "img/index/content/day-shop-4.png",
+				"detail1": "巴黎卡诗 双重功能洗发水",
+				"detail2": "控油去油 滋润秀发",
+				"detail3": "源自西班牙",
+				"detail4": "温和清洁调理头皮油脂"
+			}, {
+				"id": 37,
+				"img": "img/index/content/day-shop-5.png",
+				"detail1": "维达超韧三层",
+				"detail2": "100%自然原木浆",
+				"detail3": "超韧细密",
+				"detail4": "湿水不易破 软抽面巾纸"
+			}
+		],
+		[
+			{
+				"id": 38,
+				"img": "img/index/content/mom-shop-1.png"
+			}, {
+				"id": 39,
+				"img": "img/index/content/mom-shop-2.png",
+				"detail1": "新升级瞬吸干爽纸尿裤",
+				"detail2": "大量吸收 宝宝睡好",
+				"detail3": "瞬吸干爽",
+				"detail4": "加大的瞬吸层吸收更快"
+			}, {
+				"id": 40,
+				"img": "img/index/content/mom-shop-3.png",
+				"detail1": "天然橡皮泥工具",
+				"detail2": "激发宝贝创造力",
+				"detail3": "乐趣无极限",
+				"detail4": "每年产量高达一亿罐"
+			}, {
+				"id": 41,
+				"img": "img/index/content/mom-shop-4.png",
+				"detail1": "加州宝宝 祛痱止痒宝宝爽身粉",
+				"detail2": "舒缓修复 刺痛肌肤",
+				"detail3": "美国进口",
+				"detail4": "不含矿石成分温和干爽"
+			}, {
+				"id": 42,
+				"img": "img/index/content/mom-shop-5.png",
+				"detail1": "纸尿裤 9折双包装特惠装",
+				"detail2": "超薄干爽 屁屁水嫩",
+				"detail3": "呵护宝宝",
+				"detail4": "陪伴宝宝整晚金质睡眠"
+			}
+		],
+		[
+			{
+				"id": 43,
+				"img": "img/index/content/beauty-shop-1.png"
+			}, {
+				"id": 44,
+				"img": "img/index/content/beauty-shop-2.png",
+				"detail1": "施巴女性护理清洁液 200ml",
+				"detail2": "无皂无碱 温和呵护",
+				"detail3": "保持正常菌比",
+				"detail4": "爱护皮肤健康64年"
+			}, {
+				"id": 45,
+				"img": "img/index/content/beauty-shop-3.png",
+				"detail1": "万色水母类人胶原蛋白面膜",
+				"detail2": "激活细胞新生",
+				"detail3": "授权正品",
+				"detail4": "360°唤醒肌肤年轻生机"
+			}, {
+				"id": 46,
+				"img": "img/index/content/beauty-shop-4.png",
+				"detail1": "俏十岁 驻颜抗衰精华霜",
+				"detail2": "保湿修复 紧锁水分",
+				"detail3": "澄清臻白",
+				"detail4": "补充胶原蛋白"
+			}, {
+				"id": 47,
+				"img": "img/index/content/beauty-shop-5.png",
+				"detail1": "男士 谁能润泽劲爽洁面啫喱",
+				"detail2": "泡沫丰富 不含皂剂",
+				"detail3": "清新舒适",
+				"detail4": "富含薄荷醇强劲清洁不紧绷"
+			}
+		],
+		[
+			{
+				"id": 48,
+				"img": "img/index/content/fresh-shop-1.png"
+			}, {
+				"id": 49,
+				"img": "img/index/content/fresh-shop-2.png",
+				"detail1": "新鲜采摘/肉嫩多汁/色泽诱人",
+				"detail2": "新鲜现摘 源产地直发",
+				"detail3": "热带水果之王",
+				"detail4": "越南进口一级白心火龙果"
+			}, {
+				"id": 50,
+				"img": "img/index/content/fresh-shop-3.png",
+				"detail1": "香甜多汁 肉泽细嫩",
+				"detail2": "1.5公斤超大个",
+				"detail3": "香味浓郁",
+				"detail4": "果肉柔软多汁 自然成熟"
+			}, {
+				"id": 51,
+				"img": "img/index/content/fresh-shop-4.png",
+				"detail1": "泰国小米蕉 5斤装",
+				"detail2": "来自热带的新鲜味道",
+				"detail3": "天然果糖",
+				"detail4": "新鲜直达 营养丰富"
+			}, {
+				"id": 52,
+				"img": "img/index/content/fresh-shop-5.png",
+				"detail1": "来自热带的新鲜味道",
+				"detail2": "甜度值有7",
+				"detail3": "天然果糖",
+				"detail4": "营养价值极高"
+			}
+		]
+	]
+}

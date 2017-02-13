@@ -1,0 +1,158 @@
+.content{
+    height: 411px;
+    background: url(../img/login/login-bg.png) no-repeat left top;
+    form{
+        width: 402px;
+        height: 343px;
+        float: left;
+        margin-left: 625px;
+        box-sizing: border-box;
+        border-left: 1px solid $gray-hard;
+        border-right: 1px solid $gray-hard;
+        background-color: $gray-light;
+        .form-title{
+            width: 100%;
+            box-sizing: border-box;
+            height: 49px;
+            line-height: 49px;
+            padding-left: 25px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+        label{
+            display: block;
+            height: 44px;
+            box-sizing: border-box;
+            padding-left: 55px;
+            padding-top: 6px;
+            padding-bottom: 10px;
+            padding-right: 60px;
+            text-align: center;
+            font-size: $font-size-base;
+            line-height: 28px;
+            @include clearfix;
+        }
+        .auto{
+            float: left;
+            height: 34px;
+            padding-left: 110px;
+            margin: 0px;
+            font-size: $font-size-small;
+            line-height: 34px;
+        }
+        input{
+            outline: 0px;
+            line-height: 28px;
+            box-sizing: border-box;
+        }
+        #txt,#psw{
+            float: right;
+            width: 228px;
+            height: 100%;
+        }
+        #txt1{
+            width: 100px;
+            float: left;
+            height: 100%;
+        }
+    }
+}
+#judge{
+    padding-right: 20px;
+    float: left;
+    p{
+        float: left;
+        width: 55px;
+        height: 100%;
+    }
+    
+}
+#judge-code{
+    float: left;
+    height: 28px;
+    margin-top: 5px;
+    width: 100px;
+    box-sizing: border-box;
+    background: greenyellow;
+    text-align: center;
+    line-height: 28px;
+    font-size: $font-size-base;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+#btn-login{
+    float: left;
+    width: 100px;
+    height: 32px;
+    margin-left: 110px;
+    border: 0px;
+    background: $brand-primary-light;
+    font-size: $font-size-base;
+    color: $body-bg;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px $brand-primary;
+}
+.forget{
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    margin-left: 10px;
+    color: $blue;
+    font-weight: bold;
+    &:hover{
+        color: $link-hover-color;
+    }
+}
+.sign-in{
+    float: left;
+    @include clearfix;
+    height: 34px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 110px;
+    line-height: 34px;
+    border-bottom: 1px dashed $gray-hard;
+    #sign-in{
+        @include size(50px, 26px);
+        border: 1px solid $gray-hard;
+        border-radius: 5px;
+        background-color: $body-bg;
+        &:hover{
+            background-color: $brand-primary-light;
+            color: $body-bg;
+        }
+    }
+}
+.other-title{
+    float: left;
+    @include clearfix;
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 60px;
+    line-height: 48px;
+    a{
+        display: inline-block;
+        box-sizing: border-box;
+        vertical-align: middle;
+        background: url(../img/login/others-bg.png) no-repeat;
+        background-position-y: 0px;
+        &:hover{
+            background-position-y: -28px;
+        }
+    }
+    .tencent{
+        @include size(78px, 28px);
+        background-position-x: 0px;
+    }
+    .sina{
+        @include size(88px, 28px);
+        background-position-x: -81px;
+    }
+    .alipay{
+        @include size(80px, 28px);
+        background-position-x: -172px;
+    }
+}

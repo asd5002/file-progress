@@ -1,0 +1,28 @@
+body,h1,h2,h3,h4,h5,h6,p,img,
+a,input,ul,ol,dl,li,dt,dd {
+    padding: 0;
+    margin: 0;
+}
+ul,ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+body {
+    font-size: $font-size-small;
+    color: $text-color;
+    font-family: "microsoft yahei";
+}
+a {
+    text-decoration: none;
+    color: $link-color;
+    &:hover{
+//      text-decoration: underline;
+        color: $link-hover-color; 
+    }
+}
+

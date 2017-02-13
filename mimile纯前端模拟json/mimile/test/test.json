@@ -1,0 +1,21 @@
+{
+	"listBox":[
+		{
+			"listBigImg_1":"../image/list/list1.jpg",
+			"listSmallImgs_1":[
+			"../image/list/list1_s1.jpg",
+			"../image/list/list1_s2.jpg",
+			"../image/list/list2_s3.jpg",
+			"../image/list/list2_s4.jpg",
+			"../image/list/list2_s5.jpg",
+			"../image/list/list2_s6.jpg"						
+			],
+			"title_1":"禾仕嘉 健齿咬胶系列 蔬菜营养棒 100g",
+			"priceOld_1":"￥10.00",
+			"priceNow_1":"￥6.80",
+			"salesVolume_1":"已售31589包",
+			"numOfPart_1":"10754人互动",
+			"shipAddress_1":"东部大仓发货"
+		}																																																			
+	]		
+}
